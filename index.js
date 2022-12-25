@@ -123,31 +123,74 @@
 //   });
 // });
 
+// $(document).ready(function () {
+// $(function () {
+//   $("#accordion").accordion();
+// });
+// $("#button1").click(function () {
+//   alert($("#line1").text());
+// });
+// $("#button2").click(function () {
+//   alert($("#line1").html());
+// });
+// $("button").click(function () {
+//   alert($("#name").val());
+// });
+// $("button").click(function () {
+//   alert($("#ya").attr("href"));
+// });
+// $("btn1").click(function () {
+//   $("#text1").text("New text line");
+// });
+
+// $("btn2").click(function () {
+//   $("#text2").html("<b>Bold text line</b>");
+// });
+
+// $("btn3").click(function () {
+//   $("#name").val("Jane Wills");
+// });
+// });
+
+// jQuery Set Attributes - attr
+// $(document).ready(function () {
+//   $("button").click(function () {
+//     $("#ya").attr("href", "http://www.youaccel.com/aboutus.php");
+//   });
+// });
+
+// Query Append and Preprend
+// $(document).ready(function () {
+// $("#btn1").click(function () {
+//   $("p").append("<b> More text...</b>");
+// });
+// $("#btn2").click(function () {
+//   $("ul").append("<li> New sport</li>");
+// });
+//   $("#btn1").click(function () {
+//     $("p").prepend("<b> More text...</b>");
+//   });
+//   $("#btn2").click(function () {
+//     $("ul").prepend("<li> New sport</li>");
+//   });
+// });
+
+// jQuery - After and Before
+// $(document).ready(function () {
+//   $("#btn1").click(function () {
+//     $("img").before("<li> More text before element...</li>");
+//   });
+//   $("#btn2").click(function () {
+//     $("img").after("<li> More text after element...</li>");
+//   });
+// });
+
+//  jQuery Remove and Empty
 $(document).ready(function () {
-  // $(function () {
-  //   $("#accordion").accordion();
+  // $("#button").click(function () {
+  //   $("#square").remove();
   // });
-  // $("#button1").click(function () {
-  //   alert($("#line1").text());
-  // });
-  // $("#button2").click(function () {
-  //   alert($("#line1").html());
-  // });
-  // $("button").click(function () {
-  //   alert($("#name").val());
-  // });
-  // $("button").click(function () {
-  //   alert($("#ya").attr("href"));
-  // });
-  $("btn1").click(function () {
-    $("#text1").text("New text line");
-  });
-
-  $("btn2").click(function () {
-    $("#text2").html("<b>Bold text line</b>");
-  });
-
-  $("btn3").click(function () {
-    $("#name").val("Jane Wills");
+  $("#button").click(function () {
+    $("#square").empty();
   });
 });
