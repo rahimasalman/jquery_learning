@@ -186,11 +186,34 @@
 // });
 
 //  jQuery Remove and Empty
+// $(document).ready(function () {
+// $("#button").click(function () {
+//   $("#square").remove();
+// });
+//   $("#button").click(function () {
+//     $("#square").empty();
+//   });
+// });
+
+//  jQuery Filter Remove
+// $(document).ready(function () {
+//   $("button").click(function () {
+//     $("p").remove(".rem1, .rem3");
+//   });
+// });
+
+// jQuery Add Class
+// $(document).ready(function () {
+//   $("button").click(function () {
+//     $("h1, h2, p").addClass("red");
+//     $("div").addClass("big");
+//   });
+// });
+
+// jQuery Remove Class
 $(document).ready(function () {
-  // $("#button").click(function () {
-  //   $("#square").remove();
-  // });
-  $("#button").click(function () {
-    $("#square").empty();
+  $("button").click(function () {
+    $("h1, h2, p").removeClass("red");
+    $("div").addClass("big");
   });
 });
