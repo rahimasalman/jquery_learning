@@ -211,9 +211,17 @@
 // });
 
 // jQuery Remove Class
+// $(document).ready(function () {
+//   $("button").click(function () {
+//     $("h1, h2, p").removeClass("red");
+//     $("div").addClass("big");
+//   });
+// });
+
+// jQuery Toggle Class
 $(document).ready(function () {
   $("button").click(function () {
-    $("h1, h2, p").removeClass("red");
+    $("h1, h2, p").toggleClass("red");
     $("div").addClass("big");
   });
 });
